@@ -14,7 +14,7 @@ public class CharExample {
     	 System.out.println("c1 + 1: " + c1); // 문자열 concatenate
     	 
     	 // A ~ Z 까지 화면에 출력 프로그램 작성.
-    	 char a = '`';
+    	 char a = '@';
     	 
     	 for (int i = 0; i < 26; i++) {
     		 a = (char) (a + 1);

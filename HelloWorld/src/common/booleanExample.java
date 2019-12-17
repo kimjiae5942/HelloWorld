@@ -14,5 +14,11 @@ public class booleanExample {
 		else
 			System.out.println(var1 + "=>거짓일 경우에");
 		}
+		boolean stop = true;
+		if(stop) {
+			System.out.println("중지합니다.");
+		} else {
+			System.out.println("시작합니다.");
+		}
 	}
 }
