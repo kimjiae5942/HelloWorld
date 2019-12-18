@@ -22,8 +22,6 @@ public class CharExample {
     		 
 		}
     	 
-    	 
-    	 
-    	 System.out.println();
+//    	@는 대문자 A, `는 소문자
      }
 }
