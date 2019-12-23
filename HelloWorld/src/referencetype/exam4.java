@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class exam4 {
 	public static void main(String[] args) {
-		
-	}
+	
 	boolean run = true;
 	int balance = 0, menu = 0, amt = 0;
 	Scanner scanner = new Scanner(System.in);
