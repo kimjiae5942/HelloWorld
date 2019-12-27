@@ -5,11 +5,17 @@ public class Account {
    private String owner;
    private int balance;
    
+   public Account() {
+	   
+   }
+   
    public Account(String ano, String owner, int balance) {
 	   this.ano = ano;
 	   this.owner = owner;
 	   this.balance = balance;
    }
+
+
 
 public void setAno(String ano) {
 	this.ano = ano;
@@ -33,6 +39,11 @@ public String getOwner() {
 
 public int getBalance() {
 	return balance;
+}
+
+@Override
+public String toString() {
+	return "계좌정보 [계좌번호=" + ano + ", 소유자=" + owner + ", 잔액=" + balance + "]"; 
 }
    
   
