@@ -10,8 +10,7 @@ public static void main(String[] args) {
 	System.out.println(frnd.getName() + frnd.getPhone());
 	}
 	
-	objAry[0] = new Friend();
-	objAry[1] = new Member();
+	
 	
 	Friend[] fArray = new Friend[10];
 	fArray[0] = new UnivFriend("","","","");
